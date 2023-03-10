@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.pcard{
+
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+}
+.card{
+    display: flex;
+    width: 340px;
+    height: 210px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px #bdacac;
+}
+.card input{
+    position: relative;
+    top: 3px;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.card input::placeholder{
+        position: relative;
+        left: 10px;
+}
+
+.card textarea{
+    border: none;
+}
+.card Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 37px;
+    background-color: orange;
+    position: relative;
+    top: 16px;
+    left: 305px;
+    border-radius: 100px;
+    min-width: 1px;
+
+}
+.card Button p{
+    font-size: 2rem;
+    position: relative;
+    top: 7px;
+    color: #ffffff;
+
+}
+

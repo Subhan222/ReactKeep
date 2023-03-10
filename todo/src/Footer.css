@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.ft{
+    display: flex;
+    justify-content: center;
+}
+
+.end{
+    
+  position: fixed;
+  left: 0;
+  bottom: -15px;
+  right: 0;
+  z-index: -2;
+    
+  }
+ 
+
+
+.end p{
+    
+    background-color: f4f5f4;
+    
+  }

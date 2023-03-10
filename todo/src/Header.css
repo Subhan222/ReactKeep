@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffb700;
+    width: 100vw;
+    height: 90px;
+}
+
+.head img{
+    
+    height: inherit;
+        width: auto;
+}
+
+.keep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 26px;
+
+}
+.note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 21px;
+    opacity: 80%;
+
+}
+.keep1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 20px;
+    opacity: 50%;
+
+}

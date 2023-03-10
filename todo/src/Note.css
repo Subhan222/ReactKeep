@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    margin-top: 35px;
+ 
+    
+}
+#direc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.marg{
+    margin: 2rem;
+    background-color: palevioletred;
+    height: 11rem;
+    width: 13rem;
+}
+.marg Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 37px;
+    background-color: #a9a49d;
+    position: relative;
+    top: -77px;
+    left: 189px;
+    border-radius: 100px;
+    min-width: 1px;
+}
+.marg Button p{
+    font-size: 2rem;
+    position: relative;
+    top: -8px;
+    color: #000000;
+}
